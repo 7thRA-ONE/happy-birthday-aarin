@@ -27,7 +27,7 @@ export function HeroSection() {
         conductor?.shoot()
     }, [conductor])
 
-    const names = ['Weebrin', 'Nyaughh', 'Itoko', 'Kongming', 'Weebughh', '']
+     const names = [ 'Itoko',  '✾ Ura-chan ✾','Urara >.<', 'Ura ...(*￣０￣)ノ','(￣▽￣* )ゞ']
 
     return (
         <motion.section className="w-full pt-[220px] md:pt-[250px] pb-[170px]">
@@ -51,7 +51,7 @@ export function HeroSection() {
                                 className="bg-gradient-to-r from-[#FF0080] to-pink-500 dark:from-[#FF4] dark:to-[#FF0080] bg-clip-text text-transparent"
                             />
                         </h1>
-                        <p className="text-sm">Maybe the real birthday was ______ ___ ___ _____</p>
+                        <p className="text-sm">Maybe the real birthday was more awesome</p>
                     </motion.div>
                     <Realistic onInit={onInit} />
                 </div>

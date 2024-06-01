@@ -13,7 +13,7 @@ export const SpotifyEmbed: FC<{ className?: string }> = ({ className = '' }) => 
             <div className="px-4 md:px-6 bg-transparent flex flex-col items-center justify-center">
                 <iframe
                     style={{}}
-                    src="https://open.spotify.com/embed/playlist/77ableGpJXnkluQrbqQu4M?utm_source=generator"
+                    src="https://open.spotify.com/embed/playlist/3drSv9bHjWsWmCtTDq4YfB?utm_source=generator&theme=0"
                     width="315"
                     height="380"
                     allowFullScreen

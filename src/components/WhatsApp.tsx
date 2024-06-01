@@ -10,8 +10,7 @@ export const Whatsapp: FC<{ className?: string }> = ({ className = '' }) => {
                 <h2 className="text-3xl font-bold text-center">Come back</h2>
 
                 <p className="text-center text-sm pt-1">
-                    Since you've finished reading all this, you can now come back to whatsapp and thank us. Happy
-                    Birthday Weeeb!
+           Happy Birthday Urara!!!
                 </p>
             </div>
             <div className="px-4 md:px-6 bg-transparent flex flex-col items-center justify-center">

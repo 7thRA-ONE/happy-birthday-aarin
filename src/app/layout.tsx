@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <head>
-                <title>NyaarinDay! 🎂</title>
+                <title>BirthDay!!! 🎂</title>
                 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
                 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
                 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
@@ -23,16 +23,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/Ronin.jpg" />
                 <link rel="manifest" href="/manifest.json" />
                 <meta name="msapplication-TileColor" content="#ffffff" />
                 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
                 <meta name="theme-color" content="#ffffff" />
 
-                <meta property="og:title" content="NyaarinDay! 🎂" />
+                <meta property="og:title" content="UraraDay! 🎂" />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://Nyaarinday.vercel.app/" />
+                <meta property="og:url" content="https://happy-birthday-urara.vercel.app/" />
                 <meta property="og:image" content="/og.png" />
-                <meta property="og:description" content="Happy Birthday Nyaarin!" />
+                <meta property="og:description" content="Happy Birthday Urara!" />
             </head>
             <body>
                 <ThemeProvider attribute="class" defaultTheme="light">
