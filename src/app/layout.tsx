@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <head>
-                <title>BirthDay!!! 🎂</title>
+                <title>UraraDay!!! 🎂</title>
                 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
                 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
                 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
                 <meta name="theme-color" content="#ffffff" />
 
-                <meta property="og:title" content="UraraDay! 🎂" />
+                <meta property="og:title" content="Urara Day! 🎂" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://happy-birthday-urara.vercel.app/" />
                 <meta property="og:image" content="/og.png" />
