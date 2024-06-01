@@ -1,6 +1,6 @@
 datasource db {
   provider = "mongodb"
-  url      = env("DATABASE_URL")
+  url      = "mongodb+srv://Ladybug:hDpPId1zTHaqS1Ph@blaze.b4faulz.mongodb.net/?retryWrites=true&w=majority&appName=Blaze"
 }
 
 generator client {
