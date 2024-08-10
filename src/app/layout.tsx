@@ -23,12 +23,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-                <link rel="icon" type="image/png" sizes="16x16" href="/Ronin.jpg" />
                 <link rel="manifest" href="/manifest.json" />
-                <meta name="msapplication-TileColor" content="#ffffff" />
+                <meta name="msapplication-TileColor" content="#00012B" /> {/* Updated to Footer Background color */}
                 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-                <meta name="theme-color" content="#ffffff" />
-
+                <meta name="theme-color" content="#00012B" /> {/* Updated to Footer Background color */}
                 <meta property="og:title" content="Rui Day! 🎂" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://happy-birthday-urara.vercel.app/" />
@@ -39,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <ThemeProvider attribute="class" defaultTheme="light">
                     <Header />
                     <RQProvider>
-                        <main className="bg-gradient-to-t from-lightBlue via-Cyan-300 to-turquoise-600">
+                        <main className="bg-gradient-to-t from-[#222A35] via-[#19212C] to-[#00012B] min-h-screen">
                             {children}
                         </main>
                     </RQProvider>

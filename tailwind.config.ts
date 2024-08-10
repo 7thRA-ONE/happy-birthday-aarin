@@ -49,7 +49,7 @@ const config: Config = {
         },
         // Custom colors for gradient
         lightBlue: '#F0F8FF', // AliceBlue
-        Cyan: '#00FFFF', // Light Cyan
+        lightCyan: '#E0FFFF', // Light Cyan
         turquoise: '#40E0D0' // Turquoise
       },
       borderRadius: {
