@@ -1,12 +1,11 @@
 'use client'
 import { useEffect, useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
-
 import { TConductorInstance } from 'react-canvas-confetti/dist/types'
 import { TypeWriter } from '../TypeWriter'
-
 import Realistic from 'react-canvas-confetti/dist/presets/realistic'
 import Image from 'next/image'
+
 const FADE_DOWN_ANIMATION_VARIANTS = {
     hidden: { opacity: 0, y: -10 },
     show: { opacity: 1, y: 0, transition: { type: 'spring' } }
@@ -15,7 +14,6 @@ const FADE_DOWN_ANIMATION_VARIANTS = {
 export function HeroSection() {
     const ref = useRef(null)
     const isInView = useInView(ref) as boolean
-
     const [conductor, setConductor] = useState<TConductorInstance>()
 
     const onInit = ({ conductor }: { conductor: TConductorInstance }) => {
@@ -43,7 +41,6 @@ export function HeroSection() {
                         className="space-y-2 flex flex-col items-center text-center h-full justify-center"
                     >
                         <Image src="/dva_peek.png" width={175} height={175} alt="Dva" />
-
                         <h1 className="font-bold tracking-tighter text-4xl md:text-5xl">
                             Happy Birthday{' '}
                             <TypeWriter

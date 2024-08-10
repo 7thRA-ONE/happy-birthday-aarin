@@ -5,7 +5,6 @@ import Footer from '@/components/Footer'
 import RQProvider from '@/utils/RQProvider'
 
 export const metadata = {}
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
@@ -36,11 +35,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <meta property="og:image" content="/og.png" />
                 <meta property="og:description" content="Happy Birthday Rui!" />
             </head>
-            <body className="bg-gradient-to-t from-lightBlue via-lightCyan to-turquoise min-h-screen">
+            <body>
                 <ThemeProvider attribute="class" defaultTheme="light">
                     <Header />
                     <RQProvider>
-                        <main className="flex-grow">{children}</main>
+                        <main className="bg-gradient-to-t from-lightBlue via-lightCyan to-turquoise min-h-screen">
+                            {children}
+                        </main>
                     </RQProvider>
                     <Footer />
                 </ThemeProvider>
