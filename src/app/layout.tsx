@@ -29,11 +29,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
                 <meta name="theme-color" content="#ffffff" />
 
-                <meta property="og:title" content="Urara Day! 🎂" />
+                <meta property="og:title" content="Rui Day! 🎂" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://happy-birthday-urara.vercel.app/" />
                 <meta property="og:image" content="/og.png" />
-                <meta property="og:description" content="Happy Birthday Urara!" />
+                <meta property="og:description" content="Happy Birthday Rui!" />
             </head>
             <body>
                 <ThemeProvider attribute="class" defaultTheme="light">
