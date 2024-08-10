@@ -39,7 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <ThemeProvider attribute="class" defaultTheme="light">
                     <Header />
                     <RQProvider>
-                        <main className="bg-gradient-to-t from-[#FF4] via-pink-300 to-pink-500">{children}</main>
+                        <main className="bg-gradient-to-t from-[#FF0044] via-pink-300 to-pink-500">{children}</main>
                     </RQProvider>
                     <Footer />
                 </ThemeProvider>
