@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <head>
-                <title>RuiDay!!! 🎂</title>
+                <title>UraraDay!!! 🎂</title>
                 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
                 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
                 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
@@ -35,13 +35,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <meta property="og:image" content="/og.png" />
                 <meta property="og:description" content="Happy Birthday Rui!" />
             </head>
-            <body className="bg-[#222A35] text-[#C8CFD8]">
-                <ThemeProvider attribute="class" defaultTheme="aesthetic">
+            <body>
+                <ThemeProvider attribute="class" defaultTheme="light">
                     <Header />
                     <RQProvider>
-                        <main className="bg-[#19212C] text-[#F2F5F7]">{children}</main>
+                        <main className="bg-gradient-to-t from-[#FF4] via-pink-300 to-pink-500">{children}</main>
                     </RQProvider>
-                    <Footer className="bg-[#00012B] text-[#626970]" />
+                    <Footer />
                 </ThemeProvider>
             </body>
         </html>
