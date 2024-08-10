@@ -97,7 +97,7 @@ const AddWish = () => {
                                             <FormMessage />
                                         </FormItem>
                                     )}
-                                />
+                                 />
 
                                 <FormField
                                     control={form.control}
