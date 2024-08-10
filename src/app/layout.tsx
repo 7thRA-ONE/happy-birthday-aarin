@@ -35,15 +35,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <meta property="og:image" content="/og.png" />
                 <meta property="og:description" content="Happy Birthday Rui!" />
             </head>
-            <body>
+            <body className="bg-[#222A35] text-[#C8CFD8]">
                 <ThemeProvider attribute="class" defaultTheme="aesthetic">
                     <Header />
                     <RQProvider>
-                        <main className="bg-gradient-to-t from-pastel-pink via-pastel-yellow to-pastel-blue">
-                            {children}
-                        </main>
+                        <main className="bg-[#19212C] text-[#F2F5F7]">{children}</main>
                     </RQProvider>
-                    <Footer />
+                    <Footer className="bg-[#00012B] text-[#626970]" />
                 </ThemeProvider>
             </body>
         </html>
