@@ -188,7 +188,7 @@ const AddWish = () => {
                     <ul className="space-y-4">
                         {wishes.map((wish) => (
                             <li key={wish.id} className="flex items-center justify-between">
-                                <Card className="w-full bg-pink-100 border-pink-300 border-2">
+                                <Card className="w-full bg-[#7FFFD4]-100 border-pink-300 border-2">
                                     <CardHeader>
                                         <h1 className="text-lg font-bold">{wish.from}</h1>
                                     </CardHeader>
