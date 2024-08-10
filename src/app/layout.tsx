@@ -36,10 +36,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <meta property="og:description" content="Happy Birthday Rui!" />
             </head>
             <body>
-                <ThemeProvider attribute="class" defaultTheme="light">
+                <ThemeProvider attribute="class" defaultTheme="aesthetic">
                     <Header />
                     <RQProvider>
-                        <main className="bg-gradient-to-t from-[#FF4] via-pink-300 to-pink-500">{children}</main>
+                        <main className="bg-gradient-to-t from-pastel-pink via-pastel-yellow to-pastel-blue">
+                            {children}
+                        </main>
                     </RQProvider>
                     <Footer />
                 </ThemeProvider>
