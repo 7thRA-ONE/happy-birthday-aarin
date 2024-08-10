@@ -4,9 +4,9 @@
 
 @layer base {
   :root {
-    --background: #222A35;
+    --background: #00f5cc;
     /* Background 1 */
-    --foreground: #C8CFD8;
+    --foreground: #009476;
     /* Text Colors */
     --card: #19212C;
     /* Background 2 */
