@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <ThemeProvider attribute="class" defaultTheme="light">
                     <Header />
                     <RQProvider>
-                        <main className="bg-gradient-to-t from-[#222A35] via-[#19212C] to-[#00012B] min-h-screen">
+                        <main className="bg-gradient-to-t from-[#E0FFFF] via-[#A2F1FD] to-[#00FFFF] min-h-screen">
                             {children}
                         </main>
                     </RQProvider>
