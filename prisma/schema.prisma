@@ -7,7 +7,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Wish {
+model Zubi {
   id        String   @id @default(auto()) @map("_id") @db.ObjectId
   wish      String
   from      String
