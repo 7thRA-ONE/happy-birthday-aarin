@@ -27,7 +27,7 @@ export function HeroSection() {
         conductor?.shoot()
     }, [conductor])
 
-    const names = ['✾ Rui-San ✾', 'Rui >.<', 'Rui~ ...(*￣０￣)ノ', 'Bhabhi-ji', '']
+    const names = ['Zubi', 'Zubi~ ', 'Nish', 'Zangkubi', '']
 
     return (
         <motion.section className="w-full pt-[220px] md:pt-[250px] pb-[170px]">
@@ -42,7 +42,7 @@ export function HeroSection() {
                         transition={{ duration: 0.7 }}
                         className="space-y-2 flex flex-col items-center text-center h-full justify-center"
                     >
-                        <Image src="/dva_peek.png" width={175} height={175} alt="Dva" />
+                        <Image src="/hero.png" width={175} height={175} alt="Dva" />
 
                         <h1 className="font-bold tracking-tighter text-4xl md:text-5xl">
                             Happy Birthday{' '}

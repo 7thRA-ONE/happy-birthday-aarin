@@ -108,7 +108,7 @@ const AddWish = () => {
                                             <FormControl>
                                                 <Textarea placeholder="Wish" {...field} />
                                             </FormControl>
-                                            <FormDescription>Say something to Rui</FormDescription>
+                                            <FormDescription>Say something to Zubi</FormDescription>
                                             <FormMessage />
                                         </FormItem>
                                     )}
