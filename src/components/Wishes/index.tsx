@@ -36,7 +36,7 @@ export const Wishes = () => {
             <div className="pb-8">
                 <h2 className="text-3xl font-bold text-center">Got Wish'd</h2>
                 <p className="text-center text-sm pt-1">
-                    i have wished on instagram but its cool in this way          </p>
+                    i have wished on WhatsApp but its cool in this way          </p>
             </div>
             <div className="px-4 md:px-6 bg-transparent flex flex-row items-center justify-center">
                 <div className="flex flex-wrap justify-center gap-2">
