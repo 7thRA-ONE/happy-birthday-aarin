@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <head>
-                <title>ZubiDay!!! 🎂</title>
+                <title>NikhilDay!!! 🎂</title>
                 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
                 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
                 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
@@ -27,11 +27,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <meta name="msapplication-TileColor" content="#00012B" /> {/* Updated to Footer Background color */}
                 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
                 <meta name="theme-color" content="#00012B" /> {/* Updated to Footer Background color */}
-                <meta property="og:title" content="Zubi Day! 🎂" />
+                <meta property="og:title" content="Nikhil Day! 🎂" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://happy-birthday-urara.vercel.app/" />
                 <meta property="og:image" content="/og.png" />
-                <meta property="og:description" content="Happy Birthday Zubi!" />
+                <meta property="og:description" content="Happy Birthday Nikhil!" />
             </head>
             <body>
                 <ThemeProvider attribute="class" defaultTheme="light">

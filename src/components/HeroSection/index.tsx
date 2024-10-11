@@ -27,7 +27,7 @@ export function HeroSection() {
         conductor?.shoot()
     }, [conductor])
 
-    const names = ['Zubi', 'Zubi~ ', 'Nish', 'Zangkubi', '']
+    const names = ['Nikhil', 'Nikhil~ ', 'Nish', 'Zangkubi', '']
 
     return (
         <motion.section className="w-full pt-[220px] md:pt-[250px] pb-[170px]">

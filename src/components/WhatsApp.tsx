@@ -17,7 +17,7 @@ export const Whatsapp: FC<{ className?: string }> = ({ className = '' }) => {
             </div>
             <div className="px-4 md:px-6 bg-transparent flex flex-col items-center justify-center">
                 <Link href="/wish">
-                    <Button className="bg-[#854CE6] hover:bg-[#6a3eb5] text-[#F2F5F7]">You can wish Zubi here</Button>
+                    <Button className="bg-[#854CE6] hover:bg-[#6a3eb5] text-[#F2F5F7]">You can wish Nikhil here</Button>
                 </Link>
             </div>
         </section>
